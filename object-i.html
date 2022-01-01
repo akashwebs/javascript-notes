@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var num = 10;
+        var a = {
+            fname: 'akash',
+            lname: 'shil',
+            age: 24,
+            email: 'akashshil227@gmail.com',
+            student: ['urmila', 'mukta', 'rumi'],
+            b: {
+                fname: 'tum',
+                sname: 'ami',
+                tname: 'last',
+                a: [11, 2, 3, 4]
+            },
+            fan: function() {
+                return this.fname + " " + this.lname;
+            }
+        }
+        console.log(a);
+        document.write(a.fan());
+    </script>
+
+
+</body>
+
+</html>

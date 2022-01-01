@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var ary = [10, 20, 30, 40, 50];
+        document.write(ary + "<br>");
+        var b = ary.map(test);
+        document.write(b + "<br>");
+
+        function test(value) {
+            return value * 5;
+        }
+
+
+        var testvar = [{
+            fsname: 'akash',
+            lname: 'shil',
+            age: 34
+        }, {
+            fsname: 'sumon',
+            lname: 'khan',
+            age: 32
+        }, {
+            fsname: 'rashed',
+            lname: 'rahaman',
+            age: 12
+        }];
+        var f = testvar.map(newtest);
+        document.write(f);
+
+        function newtest(value) {
+
+            return value.fsname + ' ' + value.lname + " " + value.age;
+        };
+    </script>
+    <li>map()</li>
+    <!-- new array make kore -->
+    <!-- map function using for ekta array er moddhe joto gula value ache sob gula multipaling korar jonno output korar jonno o use kora jay but ei er jjonno foreach and loop ache..  -->
+    <!-- object niye conact kore 2/3/4 ta value niye o ekta new array make kora somvob -->
+
+</body>
+
+</html>

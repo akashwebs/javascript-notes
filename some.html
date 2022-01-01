@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+
+    <script>
+        var ages = [4, 5, 9, 7, 10, 20];
+
+        var b = 10;
+        var a = ages.some(myfun);
+
+        function myfun(x) {
+            return x < b;
+        }
+
+        if (a) {
+            document.write('this is true');
+        } else {
+            document.write('this is false');
+            a
+        }
+    </script>
+
+    <li>some</li>
+    <!-- ekta array er moddhe joto gula value ache a=some(functionName) likhar por functionName er moddhe ekta comparison kor return krle ture or flase asbe -->
+    <li>every</li>
+    <!-- ekta array er moddhe joto gula value ache a=every(functionName) likhar por functionName er moddhe ekta comparison kor return krle ture or flase asbe -->
+</body>
+
+</html>

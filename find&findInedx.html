@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <script>
+        var ages = [10, 12, 12, 15, 18, 19, 45, 15, 18, 24, 21];
+        document.write(ages + "<br>")
+        var b = ages.find(cheackadult);
+        var c = ages.findIndex(cheackadult);
+        document.write(b);
+        document.write("<br>" + c);
+
+        function cheackadult(value) {
+            return value > 20;
+        }
+    </script>
+    <li>find()</li>
+    <!--find(function name) function name er moddhe condition dite hobe and return korte hobe,  sob gula array suro theke check korbe , but jokhon first condition pass korbe tokhon eita return korbe, and break hoye jabe, porobortite ar condition check korbe na -->
+
+    <li>findIndex()</li>
+    <!-- findIndex(function name), functoin er moddhe condition likhtee hobe, sob gula chcek korbe but jokhon first condition pass korbe tokkhon tar index number ta return korbe and break hoye jabe,  -->
+</body>
+
+</html>

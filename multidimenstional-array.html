@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css ">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        arryv = [
+            ["akash", 20, "male", "b.com"],
+            ["rashed", 20, "male", "ba.com"],
+            ["mamun", 17, "male", "bsc"],
+            ["mamun", 17, "male", "bsc"],
+            ["urmi", 15, "female", "honours"]
+        ];
+
+        document.write("<table border='1' cellspacing='0'>");
+        for (var a = 0; a < arryv.length; a++) {
+            document.write("<tr>");
+
+            for (var b = 0; b < arryv[a].length; b++) {
+                document.write("<td>" + arryv[a][b]) + "<td>";
+            }
+            document.write("</tr>");
+
+        }
+        document.write("</table>");
+    </script>
+</body>
+
+</html>

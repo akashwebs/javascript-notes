@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>array all functions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <script>
+        var a = ['jomona', 'bristy', 'proma', 'akash', 'hridoy'];
+        document.write(a, "<br>");
+        var b = a.sort();
+        document.write(b, "<br>");
+        var c = b.reverse();
+        document.write(c + "<br> <br>");
+        c.pop();
+        document.write(c + "<br>");
+
+        c.push("raihan", "rakib");
+        document.write(c + "<br>");
+
+        c.shift();
+        document.write(c + "<br>");
+        c.unshift("urmi", "smrity", "purna");
+        document.write(c + "<br>");
+        var cont = c.concat("sojib", "haydeer");
+        document.write(cont + "<br>");
+
+        var newstring = ['ratir', 'sagor', 'ruel'];
+        var concatt = newstring.concat(cont);
+        document.write(concatt + "<br>");
+
+        var joined = concatt.join(" ");
+        document.write(joined + "<br>");
+    </script>
+
+    <ul>
+        <li>sort()</li>
+        <!-- sorting with alphabet -->
+        <li>reverse()</li>
+        <!-- defalut reverse  -->
+        <li>pop()</li>
+        <!-- remove last array, eita variable er moddhe ney na, dircet c.pop() ekhon c k print kora lagbe -->
+        <li>push()</li>
+        <!-- add sting last array place, eita variable er moddhe ney na, dircet c.push(), ekhon c k print kora lagbe -->
+        <li>shift()</li>
+        <!-- remove sting first array place, eita variable er moddhe ney na, dircet c.shift(), ekhon c k print kora lagbe -->
+        <li>unshift()</li>
+        <!-- add sting first array place, eita variable er moddhe ney na, dircet c.unshift(), ekhon c k print kora lagbe -->
+        <li>concat()</li>
+        <!-- add two sting  -->
+        <li>join()</li>
+        <!-- join many sting in to convertated on sting  -->
+    </ul>
+</body>
+
+</html>

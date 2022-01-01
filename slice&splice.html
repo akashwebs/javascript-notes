@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var a = ['akash', 'hayder', 'raihan', 'kabir', 'momin'];
+        document.write(a);
+        var b = a.slice(2, 4);
+        document.write('<br>', b);
+        // end slice
+        // start splice
+        a.splice(2, 0, 'akash');
+        document.write('<br>', a);
+        a.splice(-3, 0, 'prity');
+        document.write('<br>', a);
+    </script>
+
+    <ul>
+        <li>slice</li>
+        <!-- jooto gula array ache er moddhe theke new array niye asa, mane cut korar motto. new variable er moddhe function likha lage, ar index number slice(2,5) etar mane holo arrray index 2 theke start hobe index 4 poronto . mane 5 eer porjonto but 5 na, caile nagtive value o deya abe. nagetive value mane last theke slice(-3, -1) mane last theke 3 number teheke start last er aag porjonto -->
+
+        <li>splice</li>
+        <!-- a.splice(indexNum,numberOfdelete,"new valueOrString") a.slice(3,2,"promit") 3numbber index start kore 2 ta delete koro, and promit name bosaw, jodi 0 thakto thaole 3 number idex er aage promit bosaw.  -->
+
+    </ul>
+</body>
+
+</html>
